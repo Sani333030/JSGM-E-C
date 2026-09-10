@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Runtime scratch database (the CLI's default) and ad hoc exports --
+# not the tracked seed_data/demo.db, which is the committed sample data.
+/close_tracker.db
+*.pdf
